@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Capu — Confidentialité</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&display=swap" rel="stylesheet">
+<link rel="icon" href="capu.png">
+<style>
+:root { --sky1: #1A5496; --sky2: #2F6FA8; --ink: #F3F0E6; --bg: #F6F3EC; --text: #14283A; --muted: #4E5964; --card: #FFFFFF; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0B1026; --text: #F3F0E6; --muted: #B9C3D0; --card: #141A36; } }
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--text); }
+body { font: 17px/1.6 -apple-system, BlinkMacSystemFont, system-ui, sans-serif; -webkit-text-size-adjust: 100%; }
+header { background: linear-gradient(var(--sky1), var(--sky2)); color: var(--ink); padding: 40px 16px 32px; text-align: center; }
+header img { height: 180px; }
+header h1 { font-family: "Bricolage Grotesque", system-ui, sans-serif; font-weight: 800; font-size: 48px; margin: 8px 0 0; line-height: 1.1; }
+header p { margin: 6px 0 0; font-size: 19px; opacity: .9; }
+nav { text-align: center; padding: 12px 16px; }
+nav a { margin: 0 10px; }
+main { max-width: 680px; margin: 0 auto; padding: 8px 16px 48px; }
+h2 { font-family: "Bricolage Grotesque", system-ui, sans-serif; font-size: 24px; margin: 32px 0 8px; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.muted { color: var(--muted); font-size: 15px; }
+.card { background: var(--card); border-radius: 18px; padding: 4px 20px 12px; margin: 16px 0; }
+ul { padding-left: 1.2em; }
+</style>
+</head>
+<body>
+<header><img src="capu.png" alt=""><h1>Capu</h1><p>la météo qui t'habille</p></header>
+<nav><a href="index.html">Accueil</a>
+<a href="support.html">Support</a>
+<a href="privacy.html">Confidentialité</a>
+<a href="privacy-en.html">English</a></nav>
+<main>
+<h1 style='display:none'>Capu : politique de confidentialité</h1>
+<p><em>Dernière mise à jour : 19 octobre 2026</em></p>
+<p>Capu affiche la météo du jour et un singe habillé en conséquence. L'app n'a ni compte, ni serveur, ni publicité, ni outil de mesure d'audience.</p>
+<h2>Ce que l'app utilise</h2>
+<ul><li><strong>Ta position approximative</strong>, seulement si tu l'autorises : Capu l'arrondit à environ 1 km avant de la garder ou de l'envoyer. Elle sert à demander la météo de ta ville au service météo d'Apple (WeatherKit) et, s'il ne répond pas, à l'institut météorologique norvégien (MET Norway, api.met.no, qui voit aussi l'adresse IP de la connexion, comme tout site web), et à trouver le nom de ta ville (service d'Apple). Seule la dernière position (et le nom de sa ville) est gardée, sur ton iPhone, pour le widget ; le widget de l'écran verrouillé n'affiche pas la ville.</li><li><strong>Un voyage</strong>, si tu en prépares un : la ville choisie et les dates restent sur ton iPhone ; le nom de la ville et sa position servent à demander sa météo aux services d'Apple.</li><li><strong>L'album météo</strong> : les jours rares et la ville où tu les as vécus restent sur ton iPhone.</li><li><strong>Tes achats</strong> (accessoires, emotes, Tout Capu) passent par l'App Store d'Apple. Capu ne voit ni ton identité ni tes moyens de paiement ; il vérifie seulement, sur ton iPhone, ce que tu as acheté.</li><li><strong>Tes réglages</strong> (heure de la notification du matin, accessoires portés) restent sur ton iPhone.</li></ul>
+<p>Ces données font partie des sauvegardes de ton iPhone (iCloud ou ordinateur), comme celles de toute app, pour les retrouver sur un nouveau téléphone.</p>
+<h2>Ce que l'app ne fait pas</h2>
+<ul><li>Pas de collecte de données personnelles, pas de suivi entre apps, pas de revente de données.</li><li>Pas de notifications sans ton accord : celle du matin s'active dans l'app.</li></ul>
+<h2>Tes choix</h2>
+<p>Tu peux retirer l'accès à la position ou aux notifications à tout moment dans Réglages &gt; Capu. Supprimer l'app efface toutes ses données de ton iPhone.</p>
+<h2>Contact</h2>
+<p>Capu est édité par Samuel Leonardo Gracio. Pour toute question : <a href="mailto:samuelgracio@gmail.com.">samuelgracio@gmail.com.</a></p>
+</main>
+</body>
+</html>

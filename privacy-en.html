@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Capu — Privacy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&display=swap" rel="stylesheet">
+<link rel="icon" href="capu.png">
+<style>
+:root { --sky1: #1A5496; --sky2: #2F6FA8; --ink: #F3F0E6; --bg: #F6F3EC; --text: #14283A; --muted: #4E5964; --card: #FFFFFF; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0B1026; --text: #F3F0E6; --muted: #B9C3D0; --card: #141A36; } }
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--text); }
+body { font: 17px/1.6 -apple-system, BlinkMacSystemFont, system-ui, sans-serif; -webkit-text-size-adjust: 100%; }
+header { background: linear-gradient(var(--sky1), var(--sky2)); color: var(--ink); padding: 40px 16px 32px; text-align: center; }
+header img { height: 180px; }
+header h1 { font-family: "Bricolage Grotesque", system-ui, sans-serif; font-weight: 800; font-size: 48px; margin: 8px 0 0; line-height: 1.1; }
+header p { margin: 6px 0 0; font-size: 19px; opacity: .9; }
+nav { text-align: center; padding: 12px 16px; }
+nav a { margin: 0 10px; }
+main { max-width: 680px; margin: 0 auto; padding: 8px 16px 48px; }
+h2 { font-family: "Bricolage Grotesque", system-ui, sans-serif; font-size: 24px; margin: 32px 0 8px; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.muted { color: var(--muted); font-size: 15px; }
+.card { background: var(--card); border-radius: 18px; padding: 4px 20px 12px; margin: 16px 0; }
+ul { padding-left: 1.2em; }
+</style>
+</head>
+<body>
+<header><img src="capu.png" alt=""><h1>Capu</h1><p>the weather that dresses you</p></header>
+<nav><a href="index-en.html">Home</a>
+<a href="support-en.html">Support</a>
+<a href="privacy-en.html">Privacy</a>
+<a href="privacy.html">Français</a></nav>
+<main>
+<h1 style='display:none'>Capu: privacy policy</h1>
+<p><em>Last updated: October 19, 2026</em></p>
+<p>Capu shows today's weather and a monkey dressed for it. The app has no account, no server, no ads and no analytics.</p>
+<h2>What the app uses</h2>
+<ul><li><strong>Your approximate location</strong>, only if you allow it: Capu rounds it to about 1 km before keeping or sending it. It is used to ask Apple's weather service (WeatherKit) for your city's forecast and, if it doesn't answer, the Norwegian Meteorological Institute (MET Norway, api.met.no, which also sees the connection's IP address, like any website), and to find your city's name (an Apple service). Only the last location (and its city's name) is kept, on your iPhone, for the widget; the Lock Screen widget doesn't show the city.</li><li><strong>A trip</strong>, if you plan one: the city and dates you pick stay on your iPhone; the city's name and location are used to ask Apple's services for its weather.</li><li><strong>The weather album</strong>: the rare days and the city where you lived them stay on your iPhone.</li><li><strong>Your purchases</strong> (accessories, emotes, All of Capu) go through Apple's App Store. Capu never sees who you are or how you pay; it only checks, on your iPhone, what you bought.</li><li><strong>Your settings</strong> (morning notification time, accessories worn) stay on your iPhone.</li></ul>
+<p>This data is part of your iPhone's backups (iCloud or computer), like any app's, so you find it again on a new phone.</p>
+<h2>What the app doesn't do</h2>
+<ul><li>No collection of personal data, no tracking across apps, no selling of data.</li><li>No notifications without your consent: the morning one is turned on in the app.</li></ul>
+<h2>Your choices</h2>
+<p>You can turn off location or notification access at any time in Settings &gt; Capu. Deleting the app erases all its data from your iPhone.</p>
+<h2>Contact</h2>
+<p>Capu is published by Samuel Leonardo Gracio. For any question: <a href="mailto:samuelgracio@gmail.com.">samuelgracio@gmail.com.</a></p>
+</main>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Capu — Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&display=swap" rel="stylesheet">
+<link rel="icon" href="capu.png">
+<style>
+:root { --sky1: #1A5496; --sky2: #2F6FA8; --ink: #F3F0E6; --bg: #F6F3EC; --text: #14283A; --muted: #4E5964; --card: #FFFFFF; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0B1026; --text: #F3F0E6; --muted: #B9C3D0; --card: #141A36; } }
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--text); }
+body { font: 17px/1.6 -apple-system, BlinkMacSystemFont, system-ui, sans-serif; -webkit-text-size-adjust: 100%; }
+header { background: linear-gradient(var(--sky1), var(--sky2)); color: var(--ink); padding: 40px 16px 32px; text-align: center; }
+header img { height: 180px; }
+header h1 { font-family: "Bricolage Grotesque", system-ui, sans-serif; font-weight: 800; font-size: 48px; margin: 8px 0 0; line-height: 1.1; }
+header p { margin: 6px 0 0; font-size: 19px; opacity: .9; }
+nav { text-align: center; padding: 12px 16px; }
+nav a { margin: 0 10px; }
+main { max-width: 680px; margin: 0 auto; padding: 8px 16px 48px; }
+h2 { font-family: "Bricolage Grotesque", system-ui, sans-serif; font-size: 24px; margin: 32px 0 8px; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.muted { color: var(--muted); font-size: 15px; }
+.card { background: var(--card); border-radius: 18px; padding: 4px 20px 12px; margin: 16px 0; }
+ul { padding-left: 1.2em; }
+</style>
+</head>
+<body>
+<header><img src="capu.png" alt=""><h1>Capu</h1><p>la météo qui t'habille</p></header>
+<nav><a href="index.html">Accueil</a>
+<a href="support.html">Support</a>
+<a href="privacy.html">Confidentialité</a>
+<a href="support-en.html">English</a></nav>
+<main>
+<h2>Support</h2>
+<p>Une question, un bug, une idée ? Écris à <a href="mailto:samuelgracio@gmail.com">samuelgracio@gmail.com</a>, je réponds en général sous 48 h.</p>
+<div class="card"><h2>Ajouter le widget</h2><p>Appuie longuement sur ton écran d'accueil, touche « Modifier » puis « Ajouter un widget », cherche « Capu » et choisis une taille.</p></div>
+<div class="card"><h2>La météo n'est pas celle de ma ville</h2><p>Dans Capu, touche le nom de la ville en haut : choisis « Ma position » ou une ville. Le widget suit ta position si tu l'autorises (Réglages &gt; Capu &gt; Position).</p></div>
+<div class="card"><h2>Retrouver mes achats</h2><p>Capu &gt; « … » &gt; Réglages &gt; Restaurer mes achats, avec le même compte Apple que lors de l'achat.</p></div>
+<div class="card"><h2>Mes données</h2><p>Tout reste sur ton iPhone. Supprimer l'app efface toutes ses données. Voir la <a href="privacy.html">politique de confidentialité</a>.</p></div>
+</main>
+</body>
+</html>
